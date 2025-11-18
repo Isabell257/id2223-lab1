@@ -47,7 +47,7 @@ To run this pipeline with data from multiple air quality measurement stations, t
 - All csv-files used to initialize the pipeline with air quality data must be stored under the data folder.
 - In the .env file, the value of *AQICN_URL* has to be replaced with a single JSON-string with the keys being the measurement stations' api-urls, and the values being their identifiers. For example:
 ```python
-'{"https://api.waqi.info/feed/@11656/": "tower street", "https://api.waqi.info/feed/@5986/": "salamander st"}'
+AQICN_URL='{"https://api.waqi.info/feed/@11656/": "tower street", "https://api.waqi.info/feed/@5986/": "salamander st"}'
  ```
 - A trained XGBoost model will be trained, saved, and used to predict future air quality for every unique measurement station.
 - Every unique air quality measurement station's ML-model will have its features saved in the same feature group and feature view, separated by the version number.
