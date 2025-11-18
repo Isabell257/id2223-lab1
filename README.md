@@ -1,5 +1,5 @@
 # System for Continous Airquality Prediction
-Assignment *Lab 1* - ID2223 Scalable Machine Learning and Deep Learning, KTH Royal Institute of Technology
+Assignment, Lab 1 - ID2223 Scalable Machine Learning and Deep Learning, KTH Royal Institute of Technology
 - By Isabel Grönquist (isgro@kth.se), and Kevin Kokalari (kokalari@kth.se)
 
 ## What it does
