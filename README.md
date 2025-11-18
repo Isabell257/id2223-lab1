@@ -1,6 +1,6 @@
 # System for Continous Airquality Prediction
-Assignment "Lab 1" - ID2223 Scalable Machine Learning and Deep Learning, KTH Royal Institute of Technology
-- By Isabel Grönquist (isgro@kth.se) and Kevin Kokalari (kokalari@kth.se)
+Assignment *Lab 1* - ID2223 Scalable Machine Learning and Deep Learning, KTH Royal Institute of Technology
+- By Isabel Grönquist (isgro@kth.se), and Kevin Kokalari (kokalari@kth.se)
 
 ## What it does
 
@@ -12,6 +12,7 @@ This assignment is about implemening a serverless and automatically running Mach
 - *Tower Street*
 - *Queensferry Road*
 
+
 The pipeline in question: 
 - Gets weather and air-quality data, 
 - Uses these to create and store feature entries, 
@@ -19,9 +20,11 @@ The pipeline in question:
 - Does batch predictions, and
 - Presents the results in a simple webpage/dashboard.
 
+Our pipeline also uses 1-day, 2-day, and 3-day lagging PM2.5 data included as features for the future air quality predictions being made. By adding these extra features, the performance of the prediction model increased significanlty resulting in a lower Mean Squared Error (MSE) when backtesting the predictions.
+
 
 ## Dashboard
-[Dashboard](https://featurestorebook.github.io/mlfs-book/)
+[Result Dashboard](https://featurestorebook.github.io/mlfs-book/)
 
 
 ## Setting Up the Pipeline
