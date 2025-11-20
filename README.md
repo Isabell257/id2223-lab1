@@ -1,6 +1,6 @@
 # System for Continous Airquality Prediction
 Assignment, Lab 1 - ID2223 Scalable Machine Learning and Deep Learning, KTH Royal Institute of Technology
-- By Isabel Grönquist (isgro@kth.se), and Kevin Kokalari (kokalari@kth.se)
+- By Isabell Grönquist (isgro@kth.se), and Kevin Kokalari (kokalari@kth.se)
 
 ## What it does
 
@@ -24,7 +24,7 @@ Our pipeline also uses 1-day, 2-day, and 3-day lagging PM2.5 data included as fe
 
 
 ## Dashboard
-[Result Dashboard](https://featurestorebook.github.io/mlfs-book/)
+[Result Dashboard](https://isabell257.github.io/id2223-lab1/)
 
 
 ## Setting Up the Pipeline
